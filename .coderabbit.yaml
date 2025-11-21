@@ -1,6 +1,5 @@
 language: "vi-VN"
-tone_instructions: "Concise. Assertive. Cite exact Rule IDs from rules-index.json. Format: [RULE-ID] Title: Vietnamese explanation. Never invent rule IDs."
-
+tone_instructions: "Be concise and assertive. Get straight to the point. No pleasantries."
 early_access: false
 enable_free_tier: true
 
@@ -38,16 +37,10 @@ reviews:
     - path: "**/src/**"
       instructions: |
         CRITICAL RULES:
-        1. Load rules-index.json FIRST to get all valid Rule IDs
-        2. Cross-reference with CODING_STANDARDS.md for details
-        3. Every violation MUST cite EXACT Rule ID from rules-index.json
-        4. Format: "[RULE-ID] Rule Title: Vietnamese explanation"
-        5. If no matching rule exists, describe issue WITHOUT using Rule ID format
-        
-        FORBIDDEN:
-        - Creating new Rule IDs (GEN-*, CUSTOM-*, TEMP-*, etc.)
-        - Using Rule IDs not in rules-index.json
-        - Omitting Rule ID when violation exists in rules-index.json
+        1. Cross-reference with CODING_STANDARDS.md for details
+        2. Every violation MUST cite EXACT Rule ID from rules-index.json
+        3. Format: "[RULE-ID] Rule Title: Vietnamese explanation"
+        4. If no matching rule exists, describe issue WITHOUT using Rule ID format
         
         REQUIRED Citation Format:
         "[SEC-CRED-001] No Hard-coded Secrets: Secret phải dùng process.env.JWT_SECRET"
