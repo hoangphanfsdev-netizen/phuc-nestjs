@@ -1,0 +1,197 @@
+{
+  "version": "1.0.0",
+  "rules": [
+    {
+      "id": "TS-NAMING-001",
+      "severity": "REQUIRED",
+      "category": "Naming",
+      "title": "Use camelCase for variables"
+    },
+    {
+      "id": "TS-NAMING-002",
+      "severity": "REQUIRED",
+      "category": "Naming",
+      "title": "Use meaningful names"
+    },
+    {
+      "id": "TS-NAMING-003",
+      "severity": "RECOMMENDED",
+      "category": "Naming",
+      "title": "Avoid overly long variable names"
+    },
+    {
+      "id": "TS-NAMING-004",
+      "severity": "REQUIRED",
+      "category": "Naming",
+      "title": "No leading underscores"
+    },
+    {
+      "id": "TS-NAMING-005",
+      "severity": "OPTIONAL",
+      "category": "Naming",
+      "title": "Hungarian Notation / Data Type Prefix"
+    },
+    {
+      "id": "TS-NAMING-006",
+      "severity": "REQUIRED",
+      "category": "Naming",
+      "title": "No unclear abbreviations"
+    },
+    {
+      "id": "TS-NAMING-007",
+      "severity": "REQUIRED",
+      "category": "Naming",
+      "title": "Constants must be UPPER_SNAKE_CASE"
+    },
+    {
+      "id": "TS-NAMING-008",
+      "severity": "REQUIRED",
+      "category": "Naming",
+      "title": "Boolean variables must use verb prefixes"
+    },
+    {
+      "id": "TS-NAMING-009",
+      "severity": "REQUIRED",
+      "category": "Naming",
+      "title": "Use let/const instead of var"
+    },
+    {
+      "id": "TS-NAMING-010",
+      "severity": "REQUIRED",
+      "category": "Naming",
+      "title": "Avoid keyword collisions"
+    },
+    {
+      "id": "TS-NAMING-011",
+      "severity": "REQUIRED",
+      "category": "Naming",
+      "title": "Use PascalCase for Classes/Interfaces/Types/Enums"
+    },
+    {
+      "id": "TS-STYLE-001",
+      "severity": "RECOMMENDED",
+      "category": "Styling",
+      "title": "Use single quotes"
+    },
+    {
+      "id": "TS-STYLE-002",
+      "severity": "REQUIRED",
+      "category": "Styling",
+      "title": "Explicit Type Annotations"
+    },
+    {
+      "id": "TS-STYLE-003",
+      "severity": "REQUIRED",
+      "category": "Styling",
+      "title": "Indentation (2 Spaces)"
+    },
+    {
+      "id": "TS-STYLE-004",
+      "severity": "REQUIRED",
+      "category": "Styling",
+      "title": "Async/Await over Callbacks"
+    },
+    {
+      "id": "TS-STYLE-005",
+      "severity": "REQUIRED",
+      "category": "Styling",
+      "title": "Defensive Programming (Null Checks)"
+    },
+    {
+      "id": "TS-STYLE-006",
+      "severity": "RECOMMENDED",
+      "category": "Styling",
+      "title": "Use Interfaces for Object Shapes"
+    },
+    {
+      "id": "TS-DOC-001",
+      "severity": "REQUIRED",
+      "category": "Comment",
+      "title": "JSDoc for Functions"
+    },
+    {
+      "id": "TS-DOC-002",
+      "severity": "REQUIRED",
+      "category": "Comment",
+      "title": "Comment Screen name or API url"
+    },
+    {
+      "id": "TS-USAGE-001",
+      "severity": "RECOMMENDED",
+      "category": "Usage",
+      "title": "Use Lodash/Utils for safety"
+    },
+    {
+      "id": "TS-LINT-001",
+      "severity": "WARNING",
+      "category": "Lint",
+      "title": "No Console.log"
+    },
+    {
+      "id": "TS-LINT-002",
+      "severity": "REQUIRED",
+      "category": "Lint",
+      "title": "Enforce Semicolons"
+    },
+    {
+      "id": "TS-LINT-003",
+      "severity": "ERROR",
+      "category": "Lint",
+      "title": "No Debugger"
+    },
+    {
+      "id": "TS-LINT-004",
+      "severity": "WARNING",
+      "category": "Lint",
+      "title": "No Explicit Any"
+    },
+    {
+      "id": "TS-LINT-006",
+      "severity": "RECOMMENDED",
+      "category": "Lint",
+      "title": "Specific Imports"
+    },
+    {
+      "id": "SEC-DB-001",
+      "severity": "CRITICAL",
+      "category": "Security",
+      "title": "Parameterized Queries (SQL Injection)"
+    },
+    {
+      "id": "SEC-API-001",
+      "severity": "RECOMMENDED",
+      "category": "Security",
+      "title": "Rate Limiting"
+    },
+    {
+      "id": "SEC-LOG-001",
+      "severity": "REQUIRED",
+      "category": "Security",
+      "title": "Structured Logging"
+    },
+    {
+      "id": "SEC-XSS-001",
+      "severity": "CRITICAL",
+      "category": "Security",
+      "title": "Escape HTML (XSS)"
+    },
+    {
+      "id": "SEC-FILE-001",
+      "severity": "CRITICAL",
+      "category": "Security",
+      "title": "No User Input in File Paths"
+    },
+    {
+      "id": "SEC-DATA-001",
+      "severity": "CRITICAL",
+      "category": "Security",
+      "title": "Encrypt Sensitive Data"
+    },
+    {
+      "id": "SEC-CRED-001",
+      "severity": "CRITICAL",
+      "category": "Security",
+      "title": "No Hard-coded Secrets"
+    }
+  ]
+}
